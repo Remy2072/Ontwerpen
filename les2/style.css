@@ -1,12 +1,59 @@
-img {
-    border-radius: 8px;
-    max-width: 100%;
+
+*{
+    color: white;
+}
+
+h1 {color:rgb(68, 68, 68)}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: sans-serif;
-    background-color: #e6e6e6;
+    background-color: #2d2d2d;
 }
 
+nav {
+    background-color: #2d2d2d;
+    height: 37px;
+}
 
-h1 {color:rgb(68, 68, 68)}
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px 20px;
+    float: left;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #141414;
+}
+
+section {
+    background-color: #141414;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.titel {
+    color: white;
+    background-color: #2d2d2d;
+    clear: both;
+    margin: 0;
+    padding: 30px;
+}
+
+footer {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 10px 30px;
+}

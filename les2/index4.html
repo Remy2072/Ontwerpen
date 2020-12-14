@@ -8,27 +8,18 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
     <style>
-        body {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
         main {
-            flex: 3 0 auto;
-            display: flex;
             padding: 0 1%;
         }
         section {
-            flex: 1 0 13%;
+            width: 23%;
+            float: left;
             padding: 20px;
-            box-sizing: bottom;
-            margin: 0 1%;
+            box-sizing: border-box;
+            margin: 1%;
         }
-        h1, footer {
-            flex: 1 0 auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        footer {
+            clear: left;
         }
     </style>
 </head>
@@ -39,7 +30,7 @@
         <a href="index2.html">inline-block</a>
         <a href="index4.html">Block</a>
     </nav>
-    <h1 class="titel">Rijksmuseum - Flexbox</h1>
+    <h1 class="titel">Rijksmuseum - Block</h1>
     <main>
         <section>
             <p>Het Rijksmuseum in Amsterdam is een van de zestien rijksmusea in Nederland. 
